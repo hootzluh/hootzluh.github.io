@@ -1,12 +1,12 @@
 import React from "react";
 import "../styles/About.css";
-import profilePic from "../assets/profile.jpg"; // Replace with your own profile picture
+// import profilePic from "../assets/profile.jpg";
 
 const About = () => {
   return (
     <section className="about" id="about">
       <div className="about-content">
-        <img src={profilePic} alt="Justin Hutzler" className="profile-pic" />
+        {/* <img src={profilePic} alt="Justin Hutzler" className="profile-pic" /> */}
         <div className="about-text">
           <h2>About Me</h2>
           <p>
