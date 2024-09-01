@@ -1,0 +1,48 @@
+.projects {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-10px);
+}
+
+.glass-card h3 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.glass-card p {
+  font-size: 16px;
+  color: #dcdde1;
+  margin-bottom: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #a29bfe;
+  font-size: 16px;
+}
